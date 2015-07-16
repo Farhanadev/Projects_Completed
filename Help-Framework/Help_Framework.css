@@ -1,0 +1,139 @@
+.help_data {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.helpicon {
+    width: 25px;
+    height: 25px;
+}
+
+.helpicon_top {
+    width: 25px;
+    height: 25px;
+}
+
+.help_icon_place1 {
+    padding-right: 5px;
+    /*padding-left: 35px; */
+    padding-left: 45px;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.help_icon_place2 {
+    padding-right: 5px;
+    padding-left: 90px;
+    margin-right: 5px;
+    /* margin-left: 10px;*/
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.help_icon_place3 {
+    padding-right: 5px;
+    /*padding-left: 35px; */
+    padding-left: 45px;
+    margin-right: 5px;
+    /* margin-left: 10px;*/
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.help_icon_place4 {
+    padding-right: 5px;
+    padding-left: 90px;
+    margin-right: 5px;
+    /* margin-left: 10px;*/
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.help_icon_place5 {
+    padding-right: 5px;
+    /*padding-left: 35px; */
+    padding-left: 750px;
+    margin-right: 5px;
+    /* margin-left: 10px;*/
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+@media only screen and
+(min-device-width: 64.1rem) and
+(min-device-width: 64em) and
+(min-width: 50em) {
+
+}
+
+/* --------  ( DESKTOP )  Media Query (up to 800px): END ------*/
+
+/* -------------------------- (Tablet Landscape) Media Query: START ------------------------------ */
+@media only screen and
+(max-width: 49.99em) and
+(min-width: 40em), only screen and
+(max-device-width: 1024px) and
+(min-device-width: 768px) {
+
+
+
+    .help_icon_place5 {
+
+        padding-left: 700px;
+        margin-left: 15px;
+
+    }
+}
+
+/* -------------------------- (Tablet Landscape) Media Query: END ------------------------------ */
+
+/* -------------------------- (Mobile) Media Query: START ------------------------------ */
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+ /*   .help_icon_place1 {
+        padding-left: 25px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .help_icon_place2 {
+        padding-left: 60px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .help_icon_place3 {
+        padding-left: 25px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    } */
+
+    .help_icon_place4 {
+        padding-left: 60px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .help_icon_place5 {
+        padding-right: 5px;
+        padding-left: 180px;
+        margin-left: 15px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
