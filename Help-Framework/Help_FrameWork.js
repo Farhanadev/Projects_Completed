@@ -1,3 +1,5 @@
+
+//Javascript Help Framework
 var HelpWizard = function (section) {
     var json_data;
 
